@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+  }
+/*navigationsbereich*/
+.head{
+    height: 50px;
+}
+  
+  .logo{
+      float: left;
+      padding: 15px;
+      font-size: 14pt;
+      font-weight: lighter;
+      letter-spacing: 2pt;
+  }
+  .logo a{
+      text-decoration: none;
+      color: white;
+  }
+  .menue{
+      overflow-y: auto;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+  }
+  .menuelist{
+      float: right;
+  }
+  .menuelist li{
+      list-style-type: none;
+      float: left;
+      font-size: 14pt;
+      text-shadow: 0px 0px 3px black;      
+      cursor: pointer;
+
+
+  }
+  .menuelist li a{
+      display:block;
+      padding: 16px;
+      text-decoration: none;
+      color: white;
+  }
+ 
+  .u1, .u2, h2, .logo{
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+/*servicebereich*/
+.u1, h2{
+    font-size: 40pt;
+    font-weight: lighter;      
+    text-align: center;
+    color: white;
+
+}
+.u2{
+    font-family: 'Ephesis', cursive;
+    font-size: 25pt;
+    font-weight: lighter;
+    opacity: 0.8;
+} 
+h4{
+    font-size: 24pt;
+    font-weight: lighter;
+}
+.content{
+    position: relative;
+}
+.title{
+      background-image: url(../img/gorice.jpg);
+      background-size: cover;
+      background-position: 50% 60%;
+      height:600px;
+      padding-top: 250px;
+      text-align: center;
+  }
+  .menue-heading{
+    background-image: url(../img/pogrinjek.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+    padding: 100px 100px;
+    text-align: center;
+    background-attachment: fixed;
+  }
+  .h-heading{
+    background-image: url(../img/suppe.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+    padding: 100px 100px;
+    text-align: center;
+    background-attachment: fixed;
+  }
+  .l-heading{
+    background-image: url(../img/terrase.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+    padding: 100px 100px;
+    text-align: center;
+    background-attachment: fixed;
+  }
+  
+.menue-description, .h-description, .l-description, h4{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    color:black;
+    padding-top: 50px;
+    text-align: center;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+}
+.row{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:100px;
+}
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.four-columns{
+    float:left;
+ width: 50%;
+}
+.course_img{
+    width: 80%;
+    cursor: pointer;
+    display: block;
+}
+.course-name{
+    font-size: 24px;
+    font-family: 'Abel', sans-serif;
+    text-align:inherit;
+}
+.social{
+float: left;
+    margin-right: 20px;
+}
+.social a{
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+/*kontaktbereich*/
+.interesse-heading{
+    color:black;
+}
+.anmeldeform{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 420px;
+    align-items: center;
+    padding-bottom: 100px;
+    margin: auto;
+}
+select, input, button, textarea{
+    margin: 5px;
+    font-size: 24px;
+    font-family: 'Abel', sans-serif;    
+    width: 100%;
+}
+textarea{
+    height: 150px;
+}
+.six-columns{
+    width: 50%;
+}
+
+.clear::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.l-description .row{
+    display: flex;
+    align-items: center;
+}
+/*fussbereich*/
+.footer{
+    padding-top: 100px;
+ width: 100%;
+ height: 40px;
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.footer.footerstart{
+    padding-top:0;
+    position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+}
+.footer::after{
+    content:"";
+    display: block;
+    clear: both;
+}
